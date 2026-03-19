@@ -1,0 +1,36 @@
+# Bybit
+BYBIT_API_KEY=your_bybit_api_key
+BYBIT_API_SECRET=your_bybit_api_secret
+# For testnet use:
+BYBIT_BASE_API=https://api-testnet.bybit.com
+BYBIT_WS=wss://stream-testnet.bybit.com/realtime
+
+# Telegram
+TELEGRAM_BOT_TOKEN=your_bot_token
+TELEGRAM_CHAT_ID=your_chat_id
+
+# App settings
+TESTNET=true
+OPEN_TRADES=false
+
+# Trading parameters (percentages)
+TP_PERCENT=1.5
+SL_PERCENT=1.0
+BREAKEVEN_PERCENT=0.5
+LEVERAGE=10
+MAX_OPEN_TRADES=3
+
+# Scanning / concurrency
+REST_CONCURRENCY=12
+SCAN_TIMEOUT_SECONDS=55
+SCAN_INTERVAL_SECONDS=60
+
+# Persistence: set REDIS_URL for production (e.g., redis://:password@host:port/0)
+REDIS_URL=
+
+# Rate-limiter / retry tuning
+API_MAX_RETRIES=5
+API_RETRY_BASE_MS=300
+
+# Other
+PORT=3000
