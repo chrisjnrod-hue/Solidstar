@@ -1,0 +1,16 @@
+{
+  "name": "bybit-mtf-scanner-safe-prod",
+  "version": "1.0.0",
+  "description": "Bybit MTF MACD Scanner with breakeven manager",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --trace-warnings launch.js",
+    "start:entry-src": "node --trace-warnings src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "prom-client": "^14.0.1"
+  }
+}
